@@ -9,14 +9,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
     const letter = []
     for(i=0;i<first_letters.length;i++ ){
         const char = first_letters[i][0]
-        console.log(char)
-        letter.push(first_letters)
+        letter.push(char)
         
 } 
 
-return letter
+return letter.join('');
 }
-const letter = firstLetter(names)
+const result = firstLetter(names);
+console.log(result);
+
 
 
 
