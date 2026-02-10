@@ -4,7 +4,15 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function newString(userName,stringToInsert,position){
+function welcome(name){
+    const saluto = 'ciao '
+    return saluto + name
+
+}
+const test = welcome(userName)
+console.log(test)
+
+/* function newString(userName,stringToInsert,position){
     const result =userName.slice(4, position) + stringToInsert +userName.slice(position);
     return result
 }
@@ -15,7 +23,7 @@ const result = newString(userName,stringToInsert,position);
 console.log(result)
 let cut = result[4].split(" ");
 console.log(cut)
-
+ */
 // Invoca la funzione qui e stampa il risultato in console
 
 
