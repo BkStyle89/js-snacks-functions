@@ -8,9 +8,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
  function firstLetter(first_letters){
     const letter = []
     for(i=0;i<first_letters.length;i++ ){
-        const char = first_letters[i]
+        const char = first_letters[i][0]
         console.log(char)
         letter.push(first_letters)
+        
 } 
 
 return letter
