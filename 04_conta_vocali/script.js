@@ -5,7 +5,20 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 
-function vowels(word_vowels){
+/* function vowels(word_vowels){
+
+    const letters=[]
+    const char =['a','e','i','o','u']
+    for(let i=0; i<word_vowels.length;i++){
+        const lettera = word_vowels[i]
+        if(char.indexOf(lettera) != -1){
+            letters.push(lettera)
+        }
+    }
+    return letters
+} */
+
+const vowels = (word_vowels) =>{
 
     const letters=[]
     const char =['a','e','i','o','u']

@@ -9,7 +9,7 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-function currentTime(name){
+/* function currentTime(name){
     const now = new Date()
     let message;
     const hours = now.getHours()
@@ -24,7 +24,24 @@ function currentTime(name){
         message = `buonasera ${name}`
     }
     return message
+} */
+const currentTime = (name) =>{
+const now = new Date()
+let message;
+const hours = now.getHours()
+    console.log(hours)
+    if(hours <= 13){
+        message = `buongiorno ${name}`
 }
+    else if(hours <= 17){
+        message = `buon pomeriggio ${name}`
+}
+    else{
+        message = `buonasera ${name}`
+}
+    return message
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
