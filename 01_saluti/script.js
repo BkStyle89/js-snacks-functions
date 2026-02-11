@@ -3,12 +3,19 @@
 const userName = 'Mario';
 
 // Dichiara la funzione qui.
-
+/* 
 function welcome(name){
     const saluto = 'ciao '
     return saluto + name
 
+} */
+
+const welcome = (name) =>{
+  const saluto = 'ciao '
+    return saluto + name
+
 }
+
 
 /* function newString(userName,stringToInsert,position){
     const result =userName.slice(4, position) + stringToInsert +userName.slice(position);
